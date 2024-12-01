@@ -11,31 +11,32 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="landingPage.css" />
+    <link rel="stylesheet" href="landingPage.css">
   </head>
   <body>
     <header>
       <nav class="nav">
-        <h1 id="logo">knowladgeFactory</h1>
-        <ul>
-          <li class="search">
-            <input
-              type="text
-                "
-              placeholder="search.."
-            />
-            <button id="btn">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </li>
-          <li id="login">
-            <h3>LOGIN</h3>
-            <a href="#"
-              ><i class="fa-solid fa-right-to-bracket" id="log_logo"></i
-            ></a>
-          </li>
-        </ul>
+        <div id="part1">
+          <div id="logo"></div>
+          <div id="name">
+            <h1>KnowladgeFactory</h1>
+          </div>
+        </div>
+        <div id="part2">
+          <div class="srch">
+            <input type="text" placeholder="search...">
+            <button id="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+        <div id="part3">
+          <button class="btn" id="log_btn">
+            <div id="login_des">login</div>
+            <div id="login_logo"><i class="fa-solid fa-right-to-bracket" id="log_"></i
+              ></div>
+          </button>
+        </div>
       </nav>
+      
     </header>
     <main>
       <section id="sec1" class="sec"></section>
@@ -44,8 +45,6 @@
       <section id="sec4" class="sec"></section>
       <section id="sec5" class="sec"></section>
     </main>
-    <footer>
-      
-    </footer>
+    <footer></footer>
   </body>
 </html>
