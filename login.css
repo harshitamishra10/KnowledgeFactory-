@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+*{
+    margin :0px;
+    padding : 0px;
+    box-sizing :border-box;
+    font-family: "Playfair Display", serif;
+
+}
+.heading{
+    
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin-bottom: 15%;
+
+}
+body{
+
+    min-height: 100vh;
+    background: linear-gradient(
+      to right,
+      rgb(177, 194, 243),
+      rgb(95, 171, 238),
+      rgb(69, 152, 224)
+    );
+    display : flex;
+    align-items : center;
+    justify-content : center; 
+}
+.container{
+    width :410px;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding : 30px 40px;
+}
+.container h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 15%;
+
+}
+.container .Input-box{
+    position: relative;
+    width :100%;
+    height : 50%;
+    margin : 30px 0;
+}
+.Input-box input{
+    width : 98%;
+    height : 40px;
+    background: transparent;
+    border : none;
+    outline: none;
+    border : 2px solid rgb(42, 42, 168);
+    border-radius: 30px;
+    font-size: 16px;
+    color :#fff;
+    padding : 20px 45px 20px 20px;
+}
+.Input-box input::placeholder{
+    color: white;
+}
+.Input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0px 15px;
+}
+ .remember-forgot label input{
+    accent-color: #fff;
+    margin-right : 3px;
+    text-decoration: none;
+ }
+ remember-forgot a:hover{
+    text-decoration: underline;
+ }
+ .container .btn{
+    width : 100%;
+    height : 45px;
+    background: #fff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0 0 0);
+    cursor: pointer;
+    color:#333;
+    font-weight: 600;
+ }
+.container .ragister-link{
+    font-size: 14.5;
+    text-align: center;
+    margin :20px 0px 15px
+}
+.ragister-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ragister-link p a:hover{
+     text-decoration: underline;
+}
